@@ -38,16 +38,13 @@ namespace _5thTask
             int yint = 0;
             xint = (int)xvalue;
             yint = (int)yvalue;
-            xlist.Add(xvalue);
+            xlist.Add(xint);
             label1.Text = xvalue.ToString();
-            ylist.Add(yvalue);
+            ylist.Add(yint);
             label4.Text = yvalue.ToString();
-            /*foreach (var xvalue in xlist)
-            {
-                label1.Text = xvalue.ToString();
-            }
-            
-            label4.Text = yvalue.ToString();*/
+
+            textBox1.Text = "";
+
         }
         
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -80,20 +77,15 @@ namespace _5thTask
         private void button2_Click(object sender, System.Windows.Forms.PaintEventArgs e)
         {
             Graphics g = e.Graphics;
-            /* int xint = 0;
-            int yint = 0;
-            xint = (int)xvalue;
-            yint = (int)yvalue; */
             int[] xarray = xlist.ToArray();
             int[] yarray = ylist.ToArray();
-            g.DrawString("This is a diagonal line drawn on the control", fnt, System.Drawing.Brushes.Blue, new Point(xarray[1], yarray[1]));
+            g.DrawString("", fnt, System.Drawing.Brushes.Blue, new Point(xarray[1], yarray[1]));
             g.DrawLine(System.Drawing.Pens.Red, pictureBox1.Left, pictureBox1.Top, pictureBox1.Right, pictureBox1.Bottom);
 
         }
 
         private void pictureBox1_Paint(object sender, System.Windows.Forms.PaintEventArgs e)
         {
-            
 
         }
 
