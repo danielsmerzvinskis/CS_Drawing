@@ -1,0 +1,11 @@
+C:\Users\mazai\Desktop\Uzdevumi\C#\5thTask\5thTask\bin\Debug\5thTask.exe.config
+C:\Users\mazai\Desktop\Uzdevumi\C#\5thTask\5thTask\bin\Debug\5thTask.exe
+C:\Users\mazai\Desktop\Uzdevumi\C#\5thTask\5thTask\bin\Debug\5thTask.pdb
+C:\Users\mazai\Desktop\Uzdevumi\C#\5thTask\5thTask\obj\Debug\5thTask.csproj.AssemblyReference.cache
+C:\Users\mazai\Desktop\Uzdevumi\C#\5thTask\5thTask\obj\Debug\5thTask.csproj.SuggestedBindingRedirects.cache
+C:\Users\mazai\Desktop\Uzdevumi\C#\5thTask\5thTask\obj\Debug\_5thTask.Form1.resources
+C:\Users\mazai\Desktop\Uzdevumi\C#\5thTask\5thTask\obj\Debug\_5thTask.Properties.Resources.resources
+C:\Users\mazai\Desktop\Uzdevumi\C#\5thTask\5thTask\obj\Debug\5thTask.csproj.GenerateResource.cache
+C:\Users\mazai\Desktop\Uzdevumi\C#\5thTask\5thTask\obj\Debug\5thTask.csproj.CoreCompileInputs.cache
+C:\Users\mazai\Desktop\Uzdevumi\C#\5thTask\5thTask\obj\Debug\5thTask.exe
+C:\Users\mazai\Desktop\Uzdevumi\C#\5thTask\5thTask\obj\Debug\5thTask.pdb
