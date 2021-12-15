@@ -44,6 +44,7 @@ namespace _5thTask
             label4.Text = yvalue.ToString();
 
             textBox1.Text = "";
+            textBox2.Text = "";
 
         }
         
@@ -79,9 +80,7 @@ namespace _5thTask
             Graphics g = e.Graphics;
             int[] xarray = xlist.ToArray();
             int[] yarray = ylist.ToArray();
-            g.DrawString("", fnt, System.Drawing.Brushes.Blue, new Point(xarray[1], yarray[1]));
-            g.DrawLine(System.Drawing.Pens.Red, pictureBox1.Left, pictureBox1.Top, pictureBox1.Right, pictureBox1.Bottom);
-
+            g.DrawLine(System.Drawing.Pens.Red, 10, 10, 20, 20);
         }
 
         private void pictureBox1_Paint(object sender, System.Windows.Forms.PaintEventArgs e)
